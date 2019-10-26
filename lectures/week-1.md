@@ -13,5 +13,9 @@ Classification -> The value of our labels belongs to a discrete set. The value o
 
 Regression -> The value of our labels belong to a continuous set. We are trying to predict the value of our sets. The value of our labels belong to a continuous set.
 
-Problem Solving Process: 
-![Problem Solving Process](img/week-1/week-1-problem-solve-process.jpg.png "Problem Solving Process")
+Problem Solving Process:
+![Problem Solving Process](img/week-1/week-1-problem-solve-process.png "Problem Solving Process")
+
+Plinko Breakdown:
+![Game Breakdown](img/week-1/week-1-game-breakdown.png
+ "Game Breakdown")
