@@ -16,6 +16,14 @@ Regression -> The value of our labels belong to a continuous set. We are trying 
 Problem Solving Process:
 ![Problem Solving Process](img/week-1/week-1-problem-solve-process.png "Problem Solving Process")
 
-Plinko Breakdown:
+1. Identify the data:
+Game Breakdown
 ![Game Breakdown](img/week-1/week-1-game-breakdown.png
  "Game Breakdown")
+ Using an array to capture the data.
+ ![Array of Arrays](img/week-1/04-array-of-arrarys-used.png)
+ since the ball land in a designated buckets(labels/categories) the type of output selected will be classification.[steps 1 to 3]
+ 
+4. Based on the data the algorithm selected was K-Nearest Neighbor(knn) Idiom that relates to knn is birds of a feather flock together
+
+5. 
