@@ -28,3 +28,4 @@ function distance(point){
   return Math.abs(point - predictionPoint)
 }
 
+//end 15
