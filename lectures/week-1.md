@@ -13,7 +13,7 @@ Classification -> The value of our labels belongs to a discrete set. The value o
 
 Regression -> The value of our labels belong to a continuous set. We are trying to predict the value of our sets. The value of our labels belong to a continuous set.
 
-Problem Solving Process:
+### Problem Solving Process:
 ![Problem Solving Process](img/week-1/week-1-problem-solve-process.png "Problem Solving Process")
 
 1. Identify the data:
@@ -22,7 +22,10 @@ Game Breakdown
  "Game Breakdown")
  Using an array to capture the data.
  ![Array of Arrays](img/week-1/04-array-of-arrarys-used.png)
- since the ball land in a designated buckets(labels/categories) the type of output selected will be classification.[steps 1 to 3]
- 
+ Since the ball land in a designated buckets(labels/categories) the type of output selected will be classification.[steps 1 to 3]
+
 4. Based on the data the algorithm selected was K-Nearest Neighbor(knn) Idiom that relates to knn is birds of a feather flock together
+
+# K-Nearest Neighbor (KNN)
+![K-Nearest Neighbor](img/week-1/05-knn-problem.png "K-Nearest Neighbor")
 
