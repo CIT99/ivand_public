@@ -30,5 +30,5 @@ Game Breakdown
 ![K-Nearest Neighbor](img/week-1/05-knn-problem.png "K-Nearest Neighbor")
 
 After building the first algorithm you may not see the results you want.
-![Bad Predictions](img/week-1/05-bad-predictions.png "Bad Predictions")
+![Bad Predictions](img/week-1/06-bad-predictions.png "Bad Predictions")
 
