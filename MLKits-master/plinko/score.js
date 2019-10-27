@@ -7,10 +7,12 @@ function onScoreUpdate(dropPosition, bounciness, size, bucketLabel) {
   console.log(outputs)
 
 
+
+
 }
 
 function runAnalysis() {
   // Write code here to analyze stuff
 }
 
-git 
+//end of 13
