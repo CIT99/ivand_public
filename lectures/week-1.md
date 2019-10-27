@@ -26,4 +26,3 @@ Game Breakdown
  
 4. Based on the data the algorithm selected was K-Nearest Neighbor(knn) Idiom that relates to knn is birds of a feather flock together
 
-5. 
