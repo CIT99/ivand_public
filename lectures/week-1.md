@@ -13,7 +13,8 @@ Classification -> The value of our labels belongs to a discrete set. The value o
 
 Regression -> The value of our labels belong to a continuous set. We are trying to predict the value of our sets. The value of our labels belong to a continuous set.
 
-### Problem Solving Process:
+## Problem Solving Process:
+
 ![Problem Solving Process](img/week-1/week-1-problem-solve-process.png "Problem Solving Process")
 
 1. Identify the data:
@@ -26,9 +27,17 @@ Game Breakdown
 
 4. Based on the data the algorithm selected was K-Nearest Neighbor(knn) Idiom that relates to knn is birds of a feather flock together
 
-# K-Nearest Neighbor (KNN)
+## K-Nearest Neighbor (KNN)
+
 ![K-Nearest Neighbor](img/week-1/05-knn-problem.png "K-Nearest Neighbor")
 
 After building the first algorithm you may not see the results you want.
 ![Bad Predictions](img/week-1/06-bad-predictions.png "Bad Predictions")
 
+## Multi Dimensional KNN Algorithm
+
+Using the Pythagorean theorem to calculate the distance between each ball.
+Two feature distance calculation (bounciness and drop location). Adding the ball size will make this a three feature calculation.
+
+![Pythagorean theorem](img/week-1/07-distance-ball.png)
+![3D Pythagorean theorem](img/week-1/08-3d-pt.png)
