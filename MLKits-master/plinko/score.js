@@ -90,4 +90,4 @@ function minMax(data,featureCount){
   }
 }
 
-//end 37
+//end of 39
