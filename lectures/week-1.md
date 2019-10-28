@@ -53,3 +53,21 @@ End of fundamental of introduction.
 
 Methods are very similar to Lodash making the transition from Lodash very easy.
 ![Tensorflow JS](img/week-1/11-tensorflow-pro-con.png)
+
+## Tensorflow
+
+You can find Tensorflow docs at: [Docs](https://js.tensorflow.org)
+
+## Tensor dimensions
+
+Dimensions in an array.
+![Tensor dimensions](img/week-1/12-dim.png)
+
+3D Tensor dimensions.
+![3D Tensor](img/week-1/13-3d-dims.png)
+
+## Shape property
+
+Row - Columns
+![row columns](img/week-1/14-2d-shapes.png)
+
