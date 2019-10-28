@@ -1,6 +1,4 @@
 const outputs = []
-//const predictionPoint = 300
-const k = 3
 
 function onScoreUpdate(dropPosition, bounciness, size, bucketLabel) {
   // Ran every time a balls drops into a bucket
@@ -9,20 +7,25 @@ function onScoreUpdate(dropPosition, bounciness, size, bucketLabel) {
 }
 
 function runAnalysis() {
-  const testSetSize = 10
+  const testSetSize = 100
   const [testSet, trainingSet] = splitDataset(outputs,testSetSize)
   
-  let numberCorrect = 0
-  for (let i = 0; i < testSet.length; i++){
-   const bucket = knn(trainingSet, testSet[i][0])
-    if (bucket === testSet[i][3]){
-      numberCorrect++
-    }
-  }
-  console.log('Accuracy:', numberCorrect / testSetSize);
+   
+  _.range(1,20).forEach(k => {
+    
+    const accuracy =  _.chain(testSet)
+    .filter(testPoint => knn(trainingSet, testSet[0],k) === testPoint[3])
+    .size()
+    .divide(testSetSize)
+    .value()
+
+    console.log('for k of ', k , 'Accuracy:', accuracy)
+
+  })
+
 }
 
-function knn(data, point) {
+function knn(data, point, k) {
    
   return  _.chain(data)
   .map(row => [distance(row[0], point),row[3]])
