@@ -87,3 +87,5 @@ function minMax(data,featureCount){
 
   }
 }
+
+//end 31
