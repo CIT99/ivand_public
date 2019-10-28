@@ -41,3 +41,15 @@ Two feature distance calculation (bounciness and drop location). Adding the ball
 
 ![Pythagorean theorem](img/week-1/07-distance-ball.png)
 ![3D Pythagorean theorem](img/week-1/08-3d-pt.png)
+
+End of fundamental of introduction.
+![End of intro](img/week-1/09-end-of-intro.png)
+
+## Pros and Cons of Lodash
+
+![Pros and cons of lodash](img/week-1/10-pros-cons-lodash.png)
+
+## Pros and Cons of Tensorflow JS
+
+Methods are very similar to Lodash making the transition from Lodash very easy.
+![Tensorflow JS](img/week-1/11-tensorflow-pro-con.png)
