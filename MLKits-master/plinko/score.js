@@ -12,7 +12,7 @@ function runAnalysis() {
   
    
   _.range(0,3).forEach(feature => {
-    const data = _.maps(outputs, row => [row[feature], _.last(row)])
+    const data = _.map(outputs, row => [row[feature], _.last(row)])
     const [testSet, trainingSet] = splitDataset(minMax(data,1),testSetSize)
 
     const accuracy =  _.chain(testSet)
@@ -90,4 +90,4 @@ function minMax(data,featureCount){
   }
 }
 
-//end 31
+//end 33
