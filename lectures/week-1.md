@@ -71,4 +71,4 @@ Dimensions in an array.
 Row - Columns
 ![row columns](img/week-1/14-2d-shapes.png)
 
-end of 48
+end of 50
