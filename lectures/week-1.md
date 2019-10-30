@@ -71,4 +71,6 @@ Dimensions in an array.
 Row - Columns
 ![row columns](img/week-1/14-2d-shapes.png)
 
-end of 50
+## Linear Regression (different paradigm than knn)
+
+![Pros and cons of Linear Regression](img/week-1/15-linear-regression.png)
