@@ -74,3 +74,5 @@ Row - Columns
 ## Linear Regression (different paradigm than knn)
 
 ![Pros and cons of Linear Regression](img/week-1/15-linear-regression.png)
+
+The goal of linear progression is to find an independent variables we can relay to a dependent variable. One great benefit of using Tensor is having one or more independent variables to one dependant variable. This is a major benefit than spreadsheet linear tables which only allow the use of one independent variable to one dependant variable.  
