@@ -112,6 +112,9 @@ Calculating the slope allows us to calculate b and mse in one calculation.
 
 ## Gradient Descent equation update to include M
 
+Gradient Descent with multiple terms:
 Initially we were solving for b and set M=0 to make things easier. Now we are also solving for M. The update will now be ((0x + b) - Actual) to ((mx + b) - Actual). The idea is the same, but now we will be doubling the calculations. After the change, we will now be calculating for B and M, instead of just B.
 
 ![Eq update with M](img/week-1/21-eq-update-with-m.png)
+
+##
