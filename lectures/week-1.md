@@ -88,4 +88,4 @@ Using the two mean squared error we can calculate how wrong were we from the act
 ![MSE Zero](img/week-1/17-mse-zero.png)
 
 
-![ ](img/week-1/17-mse-eq.png)
+![MSE EQ](img/week-1/17-mse-eq.png)
