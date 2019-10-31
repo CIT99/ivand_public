@@ -102,4 +102,8 @@ A method of determining the slope of the MSE. So to get the derivative of y=x2+5
 
 ![Gradient Descent](img/week-1/20-gradient-algo.png)
 
-## Why the learning rate?
+## Learning Rate
+
+Why the learning rate?
+
+The learning rate allows you to incrementally guess b without over shooting the optimal value. For example if you change the learning rate from .4 to 2 the second guess is 988 completely overshooting 245(optimal). Essential we only use the learning rate to tame the adjustments to b without overshooting over the optimal setting (245 in this case.). Some project require a learning rate of .00002 and other will require a learning rate of 10, this is dependent on the data set you are working with.
