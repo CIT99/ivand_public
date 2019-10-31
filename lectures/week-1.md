@@ -87,12 +87,11 @@ Using the two mean squared error we can calculate how wrong were we from the act
 
 ![MSE Zero](img/week-1/17-mse-zero.png)
 
-
 ![MSE EQ](img/week-1/17-mse-eq.png)
 
 ## Derivatives
 
-A method of determining the slope of the MSE. So to get the derivative of y=x2+5 get 2x. We can use that find out where we are on the MSE slope. 
+A method of determining the slope of the MSE. So to get the derivative of y=x2+5 get 2x. We can use that find out where we are on the MSE slope.
 
 ![Derivative](img/week-1/18-deriva.png)
 
@@ -109,4 +108,10 @@ Why the learning rate?
 The learning rate allows you to incrementally guess b without over shooting the optimal value. For example if you change the learning rate from .4 to 2 the second guess is 988 completely overshooting 245(optimal). Essential we only use the learning rate to tame the adjustments to b without overshooting over the optimal setting (245 in this case.). Some project require a learning rate of .00002 and other will require a learning rate of 10, this is dependent on the data set you are working with.
 
 Why worry about derivatives?
-Calculating the slope allows us to calculate b and mse in one calculation. 
+Calculating the slope allows us to calculate b and mse in one calculation.
+
+## Gradient Descent equation update to include M
+
+Initially we were solving for b and set M=0 to make things easier. Now we are also solving for M. The update will now be ((0x + b) - Actual) to ((mx + b) - Actual). The idea is the same, but now we will be doubling the calculations. After the change, we will now be calculating for B and M, instead of just B.
+
+![Eq update with M](img/week-1/21-eq-update-with-m.png)
