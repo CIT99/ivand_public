@@ -89,3 +89,11 @@ Using the two mean squared error we can calculate how wrong were we from the act
 
 
 ![MSE EQ](img/week-1/17-mse-eq.png)
+
+## Derivatives
+
+A method of determining the slope of the MSE. So to get the derivative of y=x2+5 get 2x. We can use that find out where we are on the MSE slope. 
+
+![Derivative](img/week-1/18-deriva.png)
+
+![MSE Slope](img/week-1/19-mse-slope.png)
