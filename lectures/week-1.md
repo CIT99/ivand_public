@@ -97,3 +97,9 @@ A method of determining the slope of the MSE. So to get the derivative of y=x2+5
 ![Derivative](img/week-1/18-deriva.png)
 
 ![MSE Slope](img/week-1/19-mse-slope.png)
+
+## Gradient Descent Algorithm
+
+![Gradient Descent](img/week-1/20-gradient-algo.png)
+
+## Why the learning rate?
