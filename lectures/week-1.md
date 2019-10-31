@@ -73,6 +73,19 @@ Row - Columns
 
 ## Linear Regression (different paradigm than knn)
 
+The goal of linear progression is to find an independent variables we can relay to a dependent variable. One great benefit of using Tensor is having one or more independent variables to one dependant variable. This is a major benefit than spreadsheet linear tables which only allow the use of one independent variable to one dependant variable.
 ![Pros and cons of Linear Regression](img/week-1/15-linear-regression.png)
 
-The goal of linear progression is to find an independent variables we can relay to a dependent variable. One great benefit of using Tensor is having one or more independent variables to one dependant variable. This is a major benefit than spreadsheet linear tables which only allow the use of one independent variable to one dependant variable.  
+  
+
+## Mean Squared Error
+
+Using the two mean squared error we can calculate how wrong were we from the actual data points. 
+
+![Mean Squared Error](img/week-1/16-mean-sq-error.png)
+**The lower the mean squared error the close it is to the actual data point. MSE is unlikely to ever be exactly 0.** For example in the chart below even the close guesses they still have a gap from the equation line.
+
+![MSE Zero](img/week-1/17-mse-zero.png)
+
+
+![ ](img/week-1/17-mse-eq.png)
