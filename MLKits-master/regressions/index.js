@@ -9,3 +9,4 @@ let { features, labels, testFeatures, testLabels} = loadCSV('./cars.csv', {
     dataColumns: ['horsepower'],
     labelColumns: ['mpg']
 })
+
