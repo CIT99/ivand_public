@@ -17,7 +17,9 @@ const regression = new LinearRegression(features, labels, {
     iterations:100 
 })
 
-//83
+
 regression.train()
 
 console.log('m is ', regression.m, 'updated b is:', regression.b)
+
+//84
