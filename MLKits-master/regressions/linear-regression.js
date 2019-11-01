@@ -12,7 +12,16 @@ class LinearRegression {
             learningRate: 0.1, 
             iterations: 1000 
         }, options)
+
+        this.m = 0
+        this.b = 0
         
+    }
+
+    gradientDescent(){
+        const currentGuessesForMGP = this.features.map(row => {
+            return this.m * row[0] + this.b
+        })
     }
 
     train(){
