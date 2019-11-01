@@ -121,3 +121,8 @@ Initially we were solving for b and set M=0 to make things easier. Now we are al
 
 ![Linear Regression](img/week-1/22-class-lin-regres.png)
 
+
+## Matrix Multiplication
+
+Our shape will be 2 columns 6 rows and our diff is 6 by 1 column (multiplication of two tensors)
+![Matrix Multiplication](img/week-1/matrix.png)
