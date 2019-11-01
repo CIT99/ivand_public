@@ -117,4 +117,7 @@ Initially we were solving for b and set M=0 to make things easier. Now we are al
 
 ![Eq update with M](img/week-1/21-eq-update-with-m.png)
 
-##
+## Implementation of Linear Regression
+
+![Linear Regression](img/week-1/22-class-lin-regres.png)
+
