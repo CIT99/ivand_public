@@ -1,5 +1,7 @@
 const tf = require('@tensorflow/tfjs')
 const _ = require('lodash')
+
+
 class LinearRegression {
     constructor(features, labels, options){
         this.features = features
@@ -30,6 +32,9 @@ class LinearRegression {
         const mSlope = _.sum(currentGuessesForMGP.map((guess, i) => {
             return -1 * this.features[i][0] * (this.labels[i][0] - guess)
         })) * 2 / this.features.length
+
+        this.m = this.m - mSlope * this.options.learningRate
+        this.b = this.b - bSlope * this.options.learningRate
     }
 
     train(){
