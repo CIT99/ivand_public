@@ -20,6 +20,6 @@ const regression = new LinearRegression(features, labels, {
 
 regression.train()
 
-console.log('m is ', regression.m, 'updated b is:', regression.b)
+console.log('m is ', regression.weights.get(1,0), 'updated b is:', regression.weights.get(0,0))
 
 //84
