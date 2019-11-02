@@ -18,3 +18,23 @@ After calculating SS and SR we go back to calculate the Coefficient of Determina
 
 The job of the helper function is to return a normalized or standardized data sets.
 ![Helper function](img/week-1/27-helper-function.png)
+
+
+## Multi Variate Equation Update
+
+We will now be taking displacement and weight into consideration. The initial equation only used horsepower. The equate will go from univariate (one variable/feature) to multivariate linear regression.
+
+![Multivariate regression](img/week-1/28-multi-variate.png)
+
+2x is not a multiple for the value. As shown in the image below. The 2 signify the second iteration (or result) for the feature. For example:
+
+```bash
+# alternate notation
+       (2) = second iteration
+x2 = x
+        1 = feature
+```
+
+Even though the cart shows 1x 2x 3x they are just one iteration of data and not multiplications in the chart below.
+![data interation](img/week-1/29-matrix-update.png)
+
