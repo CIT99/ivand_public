@@ -4,8 +4,14 @@ const _ = require('lodash')
 
 class LinearRegression {
     constructor(features, labels, options){
-        this.features = features
-        this.labels = labels
+        this.features = tf.tensor(features)
+        this.labels = tf.tensor(labels)
+
+        this.features = tf.ones([this.features.shape[0], 1]).concat(this.features, 1)
+        
+        //tf.ones([6,1]) = [1,1,1,1,1,1]
+        // remember to set the axis of the concat 1 = right 0 = down axis 
+        
         //assigns a default value to a new object.
         //new LinearRegression(features, labels, { learningRate: 0.025 })
         // this would assign iterations 1000 but overwrite the learningRate.
