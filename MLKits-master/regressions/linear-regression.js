@@ -76,7 +76,19 @@ class LinearRegression {
 
         const predictions = testFeatures.matMul(this.weights)
 
-        predictions.print()
+        //predictions.print()
+        const res = testLabels.sub(predictions)
+            .pow(2) //element wise squared.... each element will be squared.
+            .sum() // will add no numbers in tensor since we did not provide axis
+            .get()
+
+            //arithmetic mean .mean()
+        const tot = testLabels.sub(testLabels.mean())
+            .pow(2)
+            .sum()
+            .get()
+
+        return 1 - res / tot     
 
     }
 
