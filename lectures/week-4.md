@@ -14,6 +14,7 @@ After calculating SS and SR we go back to calculate the Coefficient of Determina
 
 ![Accuracy](img/week-1/26-accu.png)
 
+## Helper Function
 
-
-
+The job of the helper function is to return a normalized or standardized data sets.
+![Helper function](img/week-1/27-helper-function.png)
