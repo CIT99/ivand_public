@@ -33,4 +33,3 @@ plot({
 //console.log('mse history:', regression.mseHistory);
 console.log('rs is:', r2);
 
-//end 96

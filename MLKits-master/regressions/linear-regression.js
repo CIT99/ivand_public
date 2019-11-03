@@ -7,7 +7,7 @@ class LinearRegression {
         this.features = this.processFeatures(features)
         this.labels = tf.tensor(labels)
         this.mseHistory = []
-        
+        //this.bHistory = []
         //tf.ones([6,1]) = [1,1,1,1,1,1]
         // remember to set the axis of the concat 1 = right 0 = down axis 
         
@@ -62,7 +62,8 @@ class LinearRegression {
     train(){
         
         for(let i = 0; i < this.options.iterations; i++){
-            //console.log(this.options.learningRate)
+            
+            //this.bHistory.push(this.weights.get(0, 0))
             this.gradientDescent()
             this.recordMSE()
             this.updateLearningRate()
