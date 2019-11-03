@@ -20,7 +20,7 @@ class LinearRegression {
             iterations: 1000 
         }, options)
 
-        this.weights = tf.zeros([2,1])
+        this.weights = tf.zeros([this.features.shape[1],1])
         
         // this.m = 0
         // this.b = 0
