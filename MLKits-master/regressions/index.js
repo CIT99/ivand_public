@@ -21,6 +21,7 @@ const regression = new LinearRegression(features, labels, {
 regression.train()
 const r2 = regression.test(testFeatures,testLabels)
 
-console.log('rs is ', r2);
+console.log('mse history:', regression.mseHistory);
+console.log('rs is:', r2);
 
 //end 96
