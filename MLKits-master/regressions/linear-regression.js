@@ -61,9 +61,12 @@ class LinearRegression {
 
     train(){
         
+        const batchQuantity = Math.floor(
+            this.features.shape[0] / this.options.batchSize
+            )
+
         for(let i = 0; i < this.options.iterations; i++){
             
-            //this.bHistory.push(this.weights.get(0, 0))
             this.gradientDescent()
             this.recordMSE()
             this.updateLearningRate()
