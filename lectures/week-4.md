@@ -36,5 +36,9 @@ x2 = x
 ```
 
 Even though the cart shows 1x 2x 3x they are just one iteration of data and not multiplications in the chart below.
-![data interation](img/week-1/29-matrix-update.png)
+![data iteration](img/week-1/29-matrix-update.png)
+
+## Batch Gradient Descent - Stochastic Gradient Descent
+
+![BGD and SGD](img/week-1/30-gradient-descents.png)
 
