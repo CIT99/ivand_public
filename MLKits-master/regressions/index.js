@@ -16,7 +16,7 @@ let { features, labels, testFeatures, testLabels} = loadCSV('./cars.csv', {
 
 const regression = new LinearRegression(features, labels, {
     learningRate: 0.1,
-    iterations:100,
+    iterations:3,
     batchSize: 10,
 })
 
@@ -33,4 +33,10 @@ plot({
 
 //console.log('mse history:', regression.mseHistory);
 console.log('rs is:', r2);
+
+regression.predict([
+    //hp, 
+    [120, 2, 380],
+    
+]).print()
 
