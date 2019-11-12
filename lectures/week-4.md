@@ -42,3 +42,8 @@ Even though the cart shows 1x 2x 3x they are just one iteration of data and not 
 
 ![BGD and SGD](img/week-1/30-gradient-descents.png)
 
+## Binary Classification
+
+![Binary Classification](img/week-1/31-basic-logistic.png)
+
+Basic Logistic Regression is similar to Linear Regression.
