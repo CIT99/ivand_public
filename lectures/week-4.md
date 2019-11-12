@@ -47,3 +47,8 @@ Even though the cart shows 1x 2x 3x they are just one iteration of data and not 
 ![Binary Classification](img/week-1/31-basic-logistic.png)
 
 Basic Logistic Regression is similar to Linear Regression.
+
+After we have categories for the results we need to encode the results. In the example below
+we are encoding watching movies as 0 and reading books as 1. After selecting the encoding for the categories a formula is needed to be able to predict the results.
+
+![Encoding](img/week-1/33-movie-formula.png)
