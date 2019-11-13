@@ -55,4 +55,4 @@ we are encoding watching movies as 0 and reading books as 1. After selecting the
 
 ## Sigmoid Equation
 
-#
+##
