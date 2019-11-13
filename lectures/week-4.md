@@ -52,3 +52,6 @@ After we have categories for the results we need to encode the results. In the e
 we are encoding watching movies as 0 and reading books as 1. After selecting the encoding for the categories a formula is needed to be able to predict the results.
 
 ![Encoding](img/week-1/33-movie-formula.png)
+
+## Sigmoid Equation
+
