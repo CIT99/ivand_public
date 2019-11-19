@@ -55,5 +55,12 @@ we are encoding watching movies as 0 and reading books as 1. After selecting the
 
 ## Sigmoid Equation
 
-The value will continue to climb giving us results between 0 and 1. The closer to the preference the bigger the jump it will make.
+The value will continue to climb giving us results between 0 and 1. The closer to the preference the bigger the jump it will make. This will be gradual shift over from 0 to 1. The predicted activity preference start at 5 with .0002, 15 = 0.075, 22 with 0.817, etc. 
+
 ![Sigmoid Equations](img/week-1/34-sigmoid.png)
+
+### Decision Boundary
+
+At a certain point a decision boundary has to be set for the preference as shown below.
+
+![Decision Boundary](img/week-1/35-decision-bound.png)
