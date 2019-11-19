@@ -64,3 +64,5 @@ The value will continue to climb giving us results between 0 and 1. The closer t
 At a certain point a decision boundary has to be set for the preference as shown below.
 
 ![Decision Boundary](img/week-1/35-decision-bound.png)
+
+117
