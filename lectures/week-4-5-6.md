@@ -55,4 +55,5 @@ we are encoding watching movies as 0 and reading books as 1. After selecting the
 
 ## Sigmoid Equation
 
-##
+The value will continue to climb giving us results between 0 and 1. The closer to the preference the bigger the jump it will make.
+![Sigmoid Equations](img/week-1/34-sigmoid.png)
