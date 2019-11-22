@@ -35,4 +35,4 @@ regression.train()
 regression.predict([
   [88,97,1.065]
 ]).print()
-
+//124
