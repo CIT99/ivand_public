@@ -94,9 +94,7 @@ class LogisticRegression {
     recordCost() {
         const guesses = this.features.matMul(this.weights).sigmoid()
 
-        const termOne = this.labels
-            .transpose()
-            .matMul(guesses.log())
+        const termOne = this.labels.transpose().matMul(guesses.log())
 
         const termTwo = this.labels
             .mul(-1)
@@ -106,7 +104,7 @@ class LogisticRegression {
                 guesses
                     .mul(-1)
                     .add(1)
-                    .log
+                    .log()
             )
 
         const cost = termOne.add(termTwo)
