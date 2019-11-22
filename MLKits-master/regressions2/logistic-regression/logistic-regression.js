@@ -123,4 +123,13 @@ class LogisticRegression {
   }
   
 module.exports = LogisticRegression;
-  
+
+
+const weights = tf.tensor([
+    [1],
+    [1]
+])
+
+const features = tf.tensor([
+
+])
