@@ -5,7 +5,7 @@ class LogisticRegression {
     constructor(features, labels, options) {
       this.features = this.processFeatures(features);
       this.labels = tf.tensor(labels);
-      this.mseHistory = [];
+      this.costHistory = [];
   
       this.options = Object.assign(
         { learningRate: 0.1, iterations: 1000, decisionBoundary: 0.5 },
@@ -91,16 +91,12 @@ class LogisticRegression {
       return features.sub(mean).div(variance.pow(0.5));
     }
   
-    recordMSE() {
-      const mse = this.features
-        .matMul(this.weights)
-        .sub(this.labels)
-        .pow(2)
-        .sum()
-        .div(this.features.shape[0])
-        .get();
-  
-      this.mseHistory.unshift(mse);
+    recordCost() {
+        const guesses = this.features.matMul(this.weights).sigmoid()
+
+        const termOne = this.labels
+            .transpose()
+            .matMul(guesses.log())
     }
   
     updateLearningRate() {
@@ -118,5 +114,3 @@ class LogisticRegression {
   
 module.exports = LogisticRegression;
 
-
-//end 127
