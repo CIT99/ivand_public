@@ -46,7 +46,7 @@ class LogisticRegression {
           this.gradientDescent(featureSlice, labelSlice);
         }
   
-        this.recordMSE();
+        this.recordCost();
         this.updateLearningRate();
       }
     }
@@ -97,14 +97,32 @@ class LogisticRegression {
         const termOne = this.labels
             .transpose()
             .matMul(guesses.log())
+
+        const termTwo = this.labels
+            .mul(-1)
+            .add(1)
+            .transpose()
+            .matMul(
+                guesses
+                    .mul(-1)
+                    .add(1)
+                    .log
+            )
+
+        const cost = termOne.add(termTwo)
+                .div(this.features.shape[0])
+                .mul(-1)
+                .get(0,0)
+
+        this.costHistory.unshift(cost)
     }
   
     updateLearningRate() {
-      if (this.mseHistory.length < 2) {
+      if (this.costHistory.length < 2) {
         return;
       }
   
-      if (this.mseHistory[0] > this.mseHistory[1]) {
+      if (this.costHistory[0] > this.costHistory[1]) {
         this.options.learningRate /= 2;
       } else {
         this.options.learningRate *= 1.05;
