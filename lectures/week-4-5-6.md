@@ -65,4 +65,3 @@ At a certain point a decision boundary has to be set for the preference as shown
 
 ![Decision Boundary](img/week-1/35-decision-bound.png)
 
-117
