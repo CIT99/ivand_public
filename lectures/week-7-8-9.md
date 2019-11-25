@@ -15,3 +15,9 @@ Marginal Probability Distribution - Considers one possible output case in isolat
 Conditional Probability Distribution - Considers all possible output cases together.
 
 ![sigmoid softmax](img/week-1/37-softmax.png)
+
+## Features
+
+The digit pictures are 28px by 28px = 784px which equals 784 features.
+
+![features](img/week-1/38-features.png)
