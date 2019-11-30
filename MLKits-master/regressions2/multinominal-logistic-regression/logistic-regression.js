@@ -133,4 +133,3 @@ class LogisticRegression {
   
 module.exports = LogisticRegression;
 
-//46

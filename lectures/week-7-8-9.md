@@ -22,4 +22,4 @@ The digit pictures are 28px by 28px = 784px which equals 784 features.
 
 ![features](img/week-1/38-features.png)
 
-151
+153
